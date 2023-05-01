@@ -97,3 +97,50 @@ div.contact_right>p:nth-child(2),
 div.contact_right>p:nth-child(4){
     font-weight: 300;
 }
+
+footer{
+    width: 98%;
+    margin:0 auto;
+    border-top:1px solid #000;
+}
+
+footer>div.foot{
+    width: 40%;
+    margin:30px auto;
+}
+
+div.foot>h2{
+    font-size: 14px;
+    padding-bottom:30px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.sns{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+div.sns div{
+    display: flex;
+}
+
+div.sns div>a{
+    height: 50%;
+    align-self: center;
+}
+
+div.sns p{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 3;
+}
+
+div.name{
+    color:gray;
+    text-align: center;
+    padding:10px 0;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
