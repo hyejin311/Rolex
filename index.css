@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+
+img{max-width: 100%;}
+video{max-width: 100%;}
+
+header{
+    width: 100vw;
+    height: 80px;
+}
+
+header>div{
+    height: 100%;
+    text-align: center;
+}
+
+header>div>h1{
+    height: 100%;}
+
+header img{
+    height: 100%;}
+
+div.nav{
+width: 15%;
+position: fixed;
+}
+
+nav>ul{
+    padding:30px 0;
+    text-align: center;
+}
+
+nav>ul>li{
+    margin:20px 0;
+}
+
+nav>ul>li>a{
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(13, 13, 13);
+    font:100 16px/1.5 'Yeseva One', cursive;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav>ul>li>ul{
+    display: none;
+    text-align: center;
+}
+
+nav>ul>li>ul>li{
+    padding-left:40px;
+    margin:10px 0;
+}
+
+nav>ul>li>ul>li>a{
+    font:normal 14px/1.5 'Yeseva One', cursive;
+}
+
+main{
+    width: 70%;
+    margin:0 auto;
+}
+
+/* section1 */
+div.ourstory{
+    display: flex;
+    margin:50px 0;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.ourstory_img{
+    width: 30%;
+}
+
+div.ourstory_write{
+    width: 60%;
+}
+
+p.ourstory_title{
+    text-align: center;
+    font: normal 16px /2 'Yeseva One', cursive;
+}
+
+p.desc{
+    font: 200 14px/ 1.5 'Noto Sans KR', sans-serif;
+    padding:20px 0;
+}
+
+div.topbtn{
+   position: fixed;
+   width: 40px; height: 50px;
+   right:50px; bottom:50px;
+   padding:10px;
+}

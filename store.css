@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+
+img{max-width: 100%;}
+
+header{
+    width: 100vw;
+    height: 80px;
+}
+
+header>div{
+    height: 100%;
+    text-align: center;
+}
+
+header>div>h1{
+    height: 100%;}
+
+header img{
+    height: 100%;}
+
+div.nav{
+    width: 15%;
+    position: fixed;
+    top:100px;
+}
+
+nav>ul{
+    padding:30px 0;
+    text-align: center;
+}
+
+nav>ul>li{
+    margin:20px 0;
+}
+
+nav>ul>li>a{
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(13, 13, 13);
+    font:100 16px/1.5 'Yeseva One', cursive;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav>ul>li>ul{
+    display: none;
+    text-align: center;
+}
+
+nav>ul>li>ul>li{
+    padding-left:40px;
+    margin:10px 0;
+}
+
+nav>ul>li>ul>li>a{
+    font:normal 14px/1.5 'Yeseva One', cursive;
+}
+
+main{
+    width: 70%;
+    margin:0 auto;
+}
+
+/* section1 */
+/* div.store{
+
+} */
+
+div.frame{
+    width: 100%;
+    overflow: hidden;
+}
+
+div.gallery{
+    width: 300%;
+    display: flex;
+    transition: all 1.5s;
+}
+
+div.storeimg{
+    width: 100%;
+}
+
+div.storeimg img{
+    width: 100%;
+}
+
+/* div.gallery>ul>li{
+
+} */
+
+div.gallbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.gallbtn1,div.gallbtn2,div.gallbtn3{
+    border:1px solid lightgray;
+    border-radius: 50%;
+    margin:10px 5px;
+    padding:5px 10px;
+    font-family: 'Yeseva One', cursive;
+}
+
+div.gallbtn1:hover,
+div.gallbtn2:hover,
+div.gallbtn3:hover{
+    border:2px solid #000;
+    cursor: pointer;
+}
+
+/* storeinfo */
+div.storeinfo{
+    width: 80%;
+    margin:50px auto 0;
+    padding:0 30px;
+}
+
+h2.storeinfo_title{
+    font-size: 18px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding-top:36px;
+    border-top: 1px solid #000;
+
+}
+
+/* div.seoulinfo{
+} */
+
+div.seoulinfo>ul,
+div.djinfo>ul,
+div.dkinfo>ul,
+div.bsinfo>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 0;
+}
+
+div.seoulinfo>ul>li,
+div.bsinfo>ul>li{
+    width: 20%;
+    margin:20px;
+}
+
+p.storename{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    padding:10px 0;
+}
+
+p:nth-child(2),
+p:nth-child(3){
+    font-size: 10px;
+    line-height: 1.6;
+    color:gray;
+}
+
+
+div.topbtn{
+   position: fixed;
+   width: 40px; height: 50px;
+   right:50px; bottom:50px;
+   padding:10px;
+}
