@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+
+a{text-decoration: none; color:#000;}
+
+footer{
+    width: 98%;
+    margin:0 auto;
+    border-top:1px solid #000;
+}
+
+footer>div.foot{
+    margin:30px auto;
+}
+
+div.foot>h2{
+    font-size: 14px;
+    padding-bottom:30px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.footerinfo{
+    display: flex;
+    justify-content:center;
+    width: 60%;
+    margin:0 auto;
+}
+
+div.sns{
+    display: flex;
+}
+
+div.sns div{
+    display: flex;
+    margin:0 10px;
+}
+
+div.sns div>a{
+    height: 50%;
+    align-self: center;
+}
+
+div.sns p{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 3;
+    align-self: center;
+}
+
+div.QandA{
+    margin-left: 20px;
+}
+
+div.QandA>p{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.5;
+}
+
+div.name{
+    color:gray;
+    text-align: center;
+    padding:10px 0;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
