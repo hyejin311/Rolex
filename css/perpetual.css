@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Noto+Sans+KR:wght@100;400&display=swap');
+
+main{
+    width: 98%;
+    margin:0 auto;
+}
+
+div.perpetual_main{
+    position: relative;
+}
+
+div.perpetual_main>video{
+    width: 100vw;
+    /* position: fixed; */
+}
+
+ul.sort{
+    display: flex;
+    position: absolute;
+    top:20px; left:41%;
+}
+
+ul.sort>li{
+    padding:5px 20px;
+}
+
+ul.sort>li:nth-child(2){
+    border:1px solid lightgray;
+    border-top:none;
+    border-bottom:none;
+}
+
+ul.sort>li>a{
+    font-size: 14px;
+    color:lightgray;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a.first{
+    border-bottom: 1px solid lightgray;
+}
+
+div.perpetual_title{
+    position: absolute;
+    top:150px; left:37%;    
+    animation: appear 3s;
+}
+
+div.perpetual_title>h2{
+    font-size: 56px;
+    color:#eee;
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 10px;
+}
+
+div.perpetual_title>p{
+    position: absolute;
+    top:50px; left:16%;
+    padding-top:20px;
+    font-size: 20px;
+    color:#eee;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 10px;
+    animation: appear 3.5s;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.perpetual_box01{
+    display: none;
+    position: absolute;
+    bottom:-30%; left: 13%;
+    width: 70%;
+    background-color: #eee;
+    padding:40px;
+    margin-bottom: 50px;
+    animation: appear 1s;
+}
+
+.perpetual_box01>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:20px 0;
+    letter-spacing: 3px;
+}
+
+.perpetual_box01>h2{
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 6px;
+    padding-bottom:20px;
+}
+
+.box01_updesc,.box01_downdesc{
+    line-height: 2.5;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top:40px;
+}
+
+.box02_pic>div.box02_desc{
+    position: absolute;
+    left:10%; bottom:-90%;
+    color:#eee;
+}
+
+.box02_desc>p{
+    font-size: 18px;
+    line-height: 2;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:20px 0;
+    letter-spacing: 3px;
+}
+
+.box02_desc>h2{
+    font-size: 24px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 6px;
+    padding-bottom:20px;
+}
+
