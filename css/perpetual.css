@@ -6,28 +6,31 @@
 main{
     width: 98%;
     margin:0 auto;
+    height: 100%;
 }
 
 div.perpetual_main{
     position: relative;
+    width: 100vw;
+    height: 100%;
 }
 
 div.perpetual_main>video{
     width: 100vw;
-    /* position: fixed; */
 }
 
 ul.sort{
     display: flex;
     position: absolute;
-    top:20px; left:41%;
+    top:20px; left:39%;
 }
 
 ul.sort>li{
     padding:5px 20px;
 }
 
-ul.sort>li:nth-child(2){
+ul.sort>li:nth-child(2),
+ul.sort>li:nth-child(3){
     border:1px solid lightgray;
     border-top:none;
     border-bottom:none;
@@ -39,8 +42,8 @@ ul.sort>li>a{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-a.first{
-    border-bottom: 1px solid lightgray;
+ul.sort>li>a:hover{
+    font-weight: bold;
 }
 
 div.perpetual_title{
@@ -52,13 +55,12 @@ div.perpetual_title{
 div.perpetual_title>h2{
     font-size: 56px;
     color:#eee;
-    font-family: 'Castoro Titling', cursive;
     letter-spacing: 10px;
 }
 
 div.perpetual_title>p{
     position: absolute;
-    top:50px; left:16%;
+    top:50px; left: 38%;
     padding-top:20px;
     font-size: 20px;
     color:#eee;
@@ -98,9 +100,11 @@ div.perpetual_title>p{
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 6px;
     padding-bottom:20px;
+    font-weight: bold;
 }
 
-.box01_updesc,.box01_downdesc{
+.box01_updesc,
+.box01_downdesc{
     line-height: 2.5;
     font-family: 'Noto Sans KR', sans-serif;
     padding-top:40px;
@@ -127,3 +131,20 @@ div.perpetual_title>p{
     padding-bottom:20px;
 }
 
+/* 예술 */
+.box02_pic>video{
+    width: 100vw;
+}
+
+/* 환경 */
+div.universe{
+    position: fixed;
+    top:80px; left: 0;
+}
+
+.environmentfooter{
+    width: 100vw;
+    position:absolute;
+    bottom:-100%;
+    background-color:white;
+}
