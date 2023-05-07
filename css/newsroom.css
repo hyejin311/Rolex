@@ -29,7 +29,7 @@ div.newsroom{
 }
 
 div.news{
-    width: 30%;
+    width: 45%;
     margin:40px 0;
     text-align: center;
 }
@@ -41,15 +41,23 @@ div.news_name>p{
     text-align: left;
 }
 
-div.news_bigtitle>p{
-    font:bold 18px /1.5 'Noto Sans KR', sans-serif;
-}
-
-div.news_smalltitle{
+div.news_title{
     line-height: 1.8;
-    color:gray;
     font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
+    padding:20px 0;
+}
+
+.view_story{
+    width: 100%;
+    background-color: white;
+    border:1px solid #000;
+    margin-top:20px;
+    font: normal 16px/ 2.2 'Noto Sans KR', sans-serif;
+}
+
+.view_story:hover{
+    cursor: pointer;
 }
 
 div.topbtn{
