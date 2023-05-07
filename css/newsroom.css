@@ -8,49 +8,46 @@ main{
     margin:0 auto;
 }
 
-div.product_title{
+div.newsroom_title{
     width: 80%;
     margin:0 auto;
-    border-bottom: 1px solid #000;
 }
 
-div.product_title>h2{
+div.newsroom_title>h2{
+    width: 20%;
     padding:20px 0;
-    font-family: 'Yeseva One', cursive;
-    text-align: center;
-    font-size: 22px;
+    text-align: left;
+    font:bold 24px / 2 'Noto Sans KR', sans-serif;
+    border-bottom: 3px solid #000;
 }
 
 /* products */
-div.products{
+div.newsroom{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-div.product{
+div.news{
     width: 30%;
-    margin-bottom:70px;
+    margin:40px 0;
     text-align: center;
 }
 
-div.product_name>p{
-    font-size: 16px;
-    font-family: 'Noto Sans KR', sans-serif;
-    line-height: 2;
-    text-align: center;
+div.news_name>p{
+    font: bold 16px/ 2 'Noto Sans KR', sans-serif;
+    padding-left: 10px;
+    color:gray;
+    text-align: left;
 }
 
-div.product_price{
-    font-size: 14px;
-    font-family: 'Noto Sans KR', sans-serif;
-    line-height: 2;
-    text-align: right;
+div.news_bigtitle>p{
+    font:bold 18px /1.5 'Noto Sans KR', sans-serif;
 }
 
-div.product_info{
-    border-top:1px solid #000;
+div.news_smalltitle{
     line-height: 1.8;
+    color:gray;
     font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
 }
