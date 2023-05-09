@@ -7,20 +7,26 @@
     <title>Rolex store</title>
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon" sizes="16x16">
-    <link rel="stylesheet" href="../css/store.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/store.css">
+
 </head>
 <body>
 <!-- header -->
 <header>
     <div>
+        <!-- menu -->
+        <div class="menu">
+            <img src="../img/menu.png" alt="menu"></div>
+        <!-- logo -->
         <h1 id="logo">
             <a href="../index.html">
                 <img src="../img/newlogo.png" alt="logo"></a>
-            </h1>
+        </h1>
     </div>
     </header>
+    
 
 <!-- nav -->
 <div class="nav">
@@ -44,6 +50,10 @@
             <li>
                 <a href="../contact/contact.html">Contact Us</a>
             </li>
+            </ul>
+
+        <img class="closebtn" src="../img/close.png" alt="close">
+
     </nav>
 </div>
 
@@ -250,13 +260,22 @@
 <!-- script -->
 <script src="../jquery-3.6.4.min.js"></script>
 <script>
-    $('.products').on('mouseenter',function(){
-        $('.hideul').stop().slideDown();
-    });
+  $('.products').on('mouseenter',function(){
+            $('.hideul').stop().slideDown();
+        });
 
-    $('.products').on('mouseleave',function(){
-        $('.hideul').stop().slideUp();
-    });
+        $('.products').on('mouseleave',function(){
+            $('.hideul').stop().slideUp();
+        });
+
+        $('.menu').on('click',function(){
+            $('nav').css('display','block');
+            $('.closebtn').css('display','block');
+        });
+
+        $('.closebtn').on('click',function(){
+            $('nav').css('display','none');
+        });
 
     $('.gallbtn1').on('click',function(){
         $('.gallery').css('transform','translateX(0)');

@@ -350,17 +350,26 @@
 <!-- script -->
 <script src="../jquery-3.6.4.min.js"></script>
 <script>
-    $('.products').on('mouseenter',function(){
-        $('.hideul').stop().slideDown();
-    });
+  $('.products').on('mouseenter',function(){
+            $('.hideul').stop().slideDown();
+        });
 
-    $('.products').on('mouseleave',function(){
-        $('.hideul').stop().slideUp();
-    });
+        $('.products').on('mouseleave',function(){
+            $('.hideul').stop().slideUp();
+        });
 
-    $('.top').on('click',function(){
-        $('html').scrollTop(0);
-    });
+        $('.menu').on('click',function(){
+            $('nav').css('display','block');
+            $('.closebtn').css('display','block');
+        });
+
+        $('.closebtn').on('click',function(){
+            $('nav').css('display','none');
+        })
+
+        $('.top').on('click',function(){
+            $('html').scrollTop(0);
+        });
 
 </script>
 </body>

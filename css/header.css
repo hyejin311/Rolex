@@ -23,6 +23,10 @@ header img{
     padding-top:18px;
 }
 
+header>div>div.menu{
+    display: none;
+}
+
 div.nav{
 width: 15%;
 position: fixed;
@@ -64,4 +68,8 @@ nav>ul>li>ul>li{
 
 nav>ul>li>ul>li>a{
     font:normal 14px/1.5 'Yeseva One', cursive;
+}
+
+.closebtn{
+    display: none;
 }

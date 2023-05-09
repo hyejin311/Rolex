@@ -7,14 +7,19 @@
     <title>Rolex</title>
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon" sizes="16x16">
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./Responsive.css/index_media.css">
 </head>
 <body>
 <!-- header -->
 <header>
 <div>
+    <!-- menu -->
+    <div class="menu">
+        <img src="./img/menu.png" alt="menu"></div>
+    <!-- logo -->
     <h1 id="logo">
         <a href="./index.html">
             <img src="../img/newlogo.png" alt="logo"></a>
@@ -44,6 +49,9 @@
             <li>
                 <a href="./contact/contact.html">Contact Us</a>
             </li>
+            </ul>
+
+        <img class="closebtn" src="./img/close.png" alt="close">
     </nav>
 </div>
 
@@ -218,6 +226,15 @@
         $('.products').on('mouseleave',function(){
             $('.hideul').stop().slideUp();
         });
+
+        $('.menu').on('click',function(){
+            $('nav').css('display','block');
+            $('.closebtn').css('display','block');
+        });
+
+        $('.closebtn').on('click',function(){
+            $('nav').css('display','none');
+        })
 
         $('.top').on('click',function(){
             $('html').scrollTop(0);
