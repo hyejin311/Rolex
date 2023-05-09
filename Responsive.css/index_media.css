@@ -188,6 +188,12 @@
         width: 100%;
     }
 
+    video { 
+        width:100%;
+        max-width:479px;
+        height:auto;
+     }
+
     header{
         position: relative;
     }
@@ -245,7 +251,9 @@
 
     div.ourstory_img{
         width: 70%;
+        text-align: center;
         margin:0 auto;
+        height: 150px;
     }
 
     div.ourstory_img>img{
