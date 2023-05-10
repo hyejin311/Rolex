@@ -1,0 +1,265 @@
+/* 데스크탑 1100 - 1024 */
+/* @media screen and (min-width: 1024px){
+
+} */
+
+/* 태블릿 1023 - 768  */
+@media screen and (max-width:1023px) and
+(min-width:768px){
+
+    main{
+        width: 70%;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header>div>div.menu{
+        position: absolute;
+        left:10px;
+        display: block;
+        z-index:100;
+    }
+
+    header>div>div.menu>img{
+        width: 30px;
+    }
+
+    h1#logo{
+        position: absolute;
+        top:0; left:45%;
+    }
+
+    div.nav{
+        width: 30%;
+        z-index:100;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0b3e27, #197149);
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+
+    nav>ul>li{
+        margin:60px 0;
+    }
+
+    nav>ul>li>a{
+        font-size: 20px;
+        color:white;
+    }
+
+    .closebtn{
+        width: 30px;
+        position: absolute;
+        top:20px; right:30px;
+    }
+
+    div.newsroom_title>h2{
+        width: 30%;
+    }
+
+    div.footerinfo{
+        width: 100%;
+    }
+}
+
+/* 가로태블릿 767 - 480 */
+@media screen and (max-width:767px) and
+(min-width: 480px) {
+
+    main{
+        width: 98%;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header>div>div.menu{
+        position: absolute;
+        left:10px;
+        display: block;
+        z-index:100;
+    }
+
+    header>div>div.menu>img{
+        width: 30px;
+    }
+
+    h1#logo{
+        position: absolute;
+        top:0; left:45%;
+    }
+
+    div.nav{
+        width: 100%;
+        z-index: 100;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0b3e27, #197149);
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+
+    nav>ul>li{
+        margin:50px 0;
+    }
+
+    nav>ul>li>a{
+        font-size: 40px;
+        color:white;
+    }
+
+    nav>ul>li>ul>li>a{
+        color:white;
+    }
+
+    .closebtn{
+        width: 45px;
+        position: absolute;
+        top:20px; right:30px;
+    }
+
+    div.newsroom_title>h2{
+        width: 30%;
+    }
+
+    div.footerinfo{
+        width: 100%;
+        display: block;
+    }
+
+    div.sns{
+        justify-content: space-between;
+    }
+
+    div.sns div{
+        margin:0 auto;
+    }
+
+    div.QandA{
+        text-align: center;
+        margin:30px 0;
+    }
+    
+    div.QandA>p{
+        padding:5px 0;
+    }
+}
+
+/* 모바일  */
+@media screen and (max-width: 479px) and (min-width:375px){
+
+    main{
+        width: 98%;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header>div>div.menu{
+        position: absolute;
+        left:10px;
+        display: block;
+        z-index:100;
+    }
+
+    header>div>div.menu>img{
+        width: 30px;
+    }
+
+    h1#logo{
+        position: absolute;
+        top:0; left:45%;
+    }
+
+    div.nav{
+        width: 100%;
+        z-index:100;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0b3e27, #197149);
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+
+    nav>ul>li{
+        margin:45px 0;
+    }
+
+    nav>ul>li>a{
+        font-size: 35px;
+        color:white;
+    }
+
+    nav>ul>li>ul>li>a{
+        color:white;
+    }
+
+    .closebtn{
+        width: 45px;
+        position: absolute;
+        top:20px; right:30px;
+    }
+
+    div.newsroom {
+        display: block;
+    }
+
+    div.newsroom_title {
+        width: 40%;
+    }
+
+    div.newsroom_title>h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    div.news {
+        width: 98%;
+        margin-bottom:90px;
+    }
+
+    .view_story{
+        width: 50%;
+        margin:30px auto 0;
+    }
+
+
+    div.footerinfo{
+        width: 100%;
+        display: block;
+    }
+
+    div.sns{
+        justify-content: space-between;
+    }
+
+    div.sns div{
+        display: block;
+        text-align: center;
+    }
+
+    div.QandA{
+        text-align: center;
+        margin:30px 0;
+    }
+    
+    div.QandA>p{
+        padding:5px 0;
+    }
+
+    div.topbtn{
+        display: none;
+    }
+
+}
