@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/QandA.css">
+    <link rel="stylesheet" href="../Responsive.css/QandA_media.css">
 
 </head>
 <body>
@@ -294,6 +295,15 @@
     $('.products').on('mouseleave',function(){
         $('.hideul').stop().slideUp();
     });
+
+    $('.menu').on('click',function(){
+            $('nav').css('display','block');
+            $('.closebtn').css('display','block');
+        });
+
+        $('.closebtn').on('click',function(){
+            $('nav').css('display','none');
+        });
 
     $(".qs").click(function() {
         $(this).next(".as").stop().slideToggle(300);

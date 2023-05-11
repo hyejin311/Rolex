@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/perpetual.css">
+    <link rel="stylesheet" href="../Responsive.css/perpetual_media.css">
 
 </head>
 <body>
@@ -136,9 +137,19 @@
 <!-- script -->
 <script src="../jquery-3.6.4.min.js"></script>
 <script>
-    $(window).on('mousewheel',function(e){
-        $('.perpetual_box01').css('display','block');
-    });
+    $(function () {
+            $(window).scroll(function () {
+                var top = $(window).scrollTop();
+
+                if (top > 0) {
+                    $('.perpetual_box01').css({ 'display': 'block' });
+                } else {
+                    $('.perpetual_box01').css({ 'display':'none' });
+                }
+            })
+        })
+
+
 
 </script>
 </body>

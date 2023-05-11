@@ -1,0 +1,327 @@
+/* 데스크탑 1100 - 1024 */
+/* @media screen and (min-width: 1024px){
+
+} */
+
+/* 태블릿 1023 - 768  */
+@media screen and (max-width:1023px) and
+(min-width:768px){
+    main{
+        width: 100%;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header>div>div.menu{
+        position: absolute;
+        left:10px;
+        display: block;
+        z-index:100;
+    }
+
+    header>div>div.menu>img{
+        width: 30px;
+    }
+
+    h1#logo{
+        position: absolute;
+        top:0; left:45%;
+    }
+
+    div.nav{
+        width: 30%;
+        z-index:100;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0b3e27, #197149);
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+
+    nav>ul>li{
+        margin:60px 0;
+    }
+
+    nav>ul>li>a{
+        font-size: 20px;
+        color:white;
+    }
+
+    div#accordian{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .closebtn{
+        width: 30px;
+        position: absolute;
+        top:20px; right:30px;
+    }
+
+    div.ourstory{
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+
+    p.ourstory_title{
+        font-size: 18px;
+    }
+
+    p.desc{
+        font-size: 16px;
+    }
+
+    div.footerinfo{
+        width: 100%;
+    }
+}
+
+/* 가로태블릿 767 - 480 */
+@media screen and (max-width:767px) and
+(min-width: 480px) {
+    main{
+        width: 100%;
+    }
+
+    header{
+        position: relative;
+    }
+
+    header>div>div.menu{
+        position: absolute;
+        left:10px;
+        display: block;
+        z-index:100;
+    }
+
+    header>div>div.menu>img{
+        width: 30px;
+    }
+
+    h1#logo{
+        position: absolute;
+        top:0; left:45%;
+    }
+
+    div.nav{
+        width: 100%;
+        z-index: 100;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0b3e27, #197149);
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+
+    nav>ul>li{
+        margin:50px 0;
+    }
+
+    nav>ul>li>a{
+        font-size: 40px;
+        color:white;
+    }
+
+    nav>ul>li>ul>li>a{
+        color:white;
+    }
+
+    div#accordian{
+        width: 80%;
+        margin:0 auto;
+    }
+
+    .closebtn{
+        width: 45px;
+        position: absolute;
+        top:20px; right:30px;
+    }
+
+    div.ourstory{
+        display: block;
+        margin:80px 10px;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.ourstory_img{
+        width: 70%;
+        text-align: center;
+        margin:0 auto;
+        height: 200px;
+    }
+
+    div.ourstory_img>img{
+        height: 100%;
+    }
+    
+    div.ourstory_write{
+        width: 100%;
+    }
+    
+    p.ourstory_title{
+        font-size: 18px;
+    }
+
+    p.desc{
+        font-size: 16px;
+    }
+
+    div.footerinfo{
+        width: 100%;
+        display: block;
+    }
+
+    div.sns{
+        justify-content: space-between;
+    }
+
+    div.sns div{
+        margin:0 auto;
+    }
+
+    div.QandA{
+        text-align: center;
+        margin:30px 0;
+    }
+    
+    div.QandA>p{
+        padding:5px 0;
+    }
+}
+
+/* 모바일  */
+@media screen and (max-width: 479px) and (min-width:375px){
+    main{
+        width: 100%;
+    }
+
+    video { 
+        width:100%;
+        max-width:479px;
+        height:auto;
+     }
+
+    header{
+        position: relative;
+    }
+
+    header>div>div.menu{
+        position: absolute;
+        left:10px;
+        display: block;
+        z-index:100;
+    }
+
+    header>div>div.menu>img{
+        width: 30px;
+    }
+
+    h1#logo{
+        position: absolute;
+        top:0; left:45%;
+    }
+
+    div.nav{
+        width: 100%;
+        z-index:100;
+    }
+
+    nav{
+        background: linear-gradient(90deg, #0b3e27, #197149);
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+
+    nav>ul>li{
+        margin:45px 0;
+    }
+
+    nav>ul>li>a{
+        font-size: 35px;
+        color:white;
+    }
+
+    nav>ul>li>ul>li>a{
+        color:white;
+    }
+
+    div#accordian{
+        width: 98%;
+        margin:0 auto;
+    }
+
+    .closebtn{
+        width: 45px;
+        position: absolute;
+        top:20px; right:30px;
+    }
+
+    div.ourstory{
+        display: block;
+        margin:80px 10px;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.ourstory_img{
+        width: 70%;
+        text-align: center;
+        margin:0 auto;
+        height: 150px;
+    }
+
+    div.ourstory_img>img{
+        height: 100%;
+    }
+    
+    div.ourstory_write{
+        width: 100%;
+    }
+    
+    p.ourstory_title{
+        font-size: 18px;
+    }
+
+    p.desc{
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    div.footerinfo{
+        width: 100%;
+        display: block;
+    }
+
+    div.sns{
+        justify-content: space-between;
+    }
+
+    div.sns div{
+        display: block;
+        text-align: center;
+    }
+
+    div.QandA{
+        text-align: center;
+        margin:30px 0;
+    }
+    
+    div.QandA>p{
+        padding:5px 0;
+    }
+
+    div.topbtn{
+        display: none;
+    }
+
+}
