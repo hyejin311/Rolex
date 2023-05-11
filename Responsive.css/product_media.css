@@ -247,11 +247,11 @@
     }
 
     div.product{
-        width: 40%;
+        width: 60%;
     }
 
     div.product_info{
-        font-size: 12px;
+        padding-top:10px;
     }
 
     .closebtn{
