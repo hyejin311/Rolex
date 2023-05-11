@@ -250,6 +250,10 @@
         width: 40%;
     }
 
+    div.product_info{
+        font-size: 12px;
+    }
+
     .closebtn{
         width: 45px;
         position: absolute;
