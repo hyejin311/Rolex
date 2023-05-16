@@ -1,7 +1,9 @@
 /* 데스크탑 1100 - 1024 */
-/* @media screen and (min-width: 1024px){
-
-} */
+@media screen and (min-width: 1024px){
+    div.newsroom_title>h2{
+        width: 25%;
+    }
+}
 
 /* 태블릿 1023 - 768  */
 @media screen and (max-width:1023px) and
