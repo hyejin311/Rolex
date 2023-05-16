@@ -27,34 +27,33 @@
     </div>
     </header>
 
-    <!-- nav -->
-    <div class="nav">
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Our story</a></li>
-                <li class="products">
-                    <a href="../product/product.html">Products</a>
-                    <ul class="hideul">
-                        <li>
-                            <a href="../product/product_Oyster_Steel.html">Oyster Steel</a></li>
-                        <li>
-                            <a href="../product/product_Gold_Case.html">Gold Case</a></li>
-                        <li>
-                            <a href="../product/product_Platinum.html">Platinum</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="../store/store.html">Store</a></li>
-                <li>
-                    <a href="../contact/contact.html">Contact Us</a>
-                </li>
+<!-- nav -->
+<div class="nav">
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Our story</a></li>
+            <li class="products">
+                <a href="./product.html">Products</a>
+                <ul class="hideul">
+                    <li>
+                        <a href="./product_Oyster_Steel.html">Oyster Steel</a></li>
+                    <li>
+                        <a href="./product_Gold_Case.html">Gold Case</a></li>
+                    <li>
+                        <a href="./product_Platinum.html">Platinum</a></li>
                 </ul>
-    
-            <img class="closebtn" src="../img/close.png" alt="close">
-    
-        </nav>
-    </div>
+            </li>
+            <li>
+                <a href="../store/store.html">Store</a></li>
+            <li>
+                <a href="../contact/contact.html">Contact Us</a>
+            </li>
+            </ul>
+
+        <img class="closebtn" src="../img/close.png" alt="close">
+    </nav>
+</div>
 
 <!-- main -->
 <main>
@@ -63,14 +62,15 @@
     </div>
 
 <!-- product 전체 -->
-<div class="products">
+<div class="allproducts">
 
 <!-- <oyster steel> -->
 <!-- 1 oyster steel -->
 <div class="product">
     <!-- product_img -->
     <div class="product_img">
-        <img src="../img/os1.png" alt="os1">
+        <a href="../product_detail/os1_detail.html">
+        <img src="../img/os1.png" alt="os1"></a>
     </div>
     
     <!-- product_desc -->
@@ -94,7 +94,8 @@
 <div class="product">
     <!-- product_img -->
     <div class="product_img">
-        <img src="../img/os2.png" alt="os2">
+        <a href="../product_detail/os2_detail.html">
+        <img src="../img/os2.png" alt="os2"></a>
     </div>
     
     <!-- product_desc -->
@@ -117,7 +118,8 @@
 <div class="product">
     <!-- product_img -->
     <div class="product_img">
-        <img src="../img/os3.png" alt="os3">
+        <a href="../product_detail/os3_detail.html">
+        <img src="../img/os3.png" alt="os3"></a>
     </div>
     
     <!-- product_desc -->
@@ -891,7 +893,8 @@
 <!-- script -->
 <script src="../jquery-3.6.4.min.js"></script>
 <script>
-  $('.products').on('mouseenter',function(){
+
+        $('.products').on('mouseenter',function(){
             $('.hideul').stop().slideDown();
         });
 

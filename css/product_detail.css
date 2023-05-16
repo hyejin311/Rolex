@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+
+main{
+    width:60%;
+    margin:0 auto;
+}
+
+div.product_title{
+    width: 80%;
+    margin:0 auto;
+    border-bottom: 1px solid #000;
+}
+
+div.product_title>h2{
+    padding:20px 0;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    font-size: 22px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product_desc{
+    width: 50%;
+    align-self: center;
+}
+
+.product_name{
+    font-weight: bold;
+    font-size: 30px;
+    padding:15px 0;
+}
+
+.product_untitle{
+    font-size: 14px;
+    line-height: 1.5;
+    color:gray;
+    padding:15px 0;
+}
+
+.info_title{
+    position: relative;
+    padding: 17px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.info_title:first-child{
+    border-top: 1px solid black;
+  }
+      
+  .info_desc{
+    display: none;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #f4f4f2;
+    padding: 40px;
+  }
+
+  .info_desc>div{
+    margin:15px;
+  }
+
+  .info_desc>div>p:first-child{
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 2;
+    font-size: 14px;
+  }
+
+  .info_desc>div>p:last-child{
+    font-size: 12px;
+  }
+
+
+.on>span{
+    font-weight: bold;
+    color: #006633; 
+  }
+
+div.topbtn{
+    position: fixed;
+    width: 40px; height: 35px;
+    right:50px; bottom:50px;
+    padding:10px;
+    border:1px solid lightgray;
+    border-radius: 50%;
+ }

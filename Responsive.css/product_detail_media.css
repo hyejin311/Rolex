@@ -57,6 +57,11 @@
         top:20px; right:30px;
     }
 
+    .product_info{
+        width: 70%;
+        margin:0 auto;
+    }
+
     div.footerinfo{
         width: 100%;
     }
@@ -114,18 +119,33 @@
         color:white;
     }
 
-    div.product{
-        width: 45%;
-    }
-
-    div.storeinfo{
-        width: 90%;
-    }
-
     .closebtn{
         width: 45px;
         position: absolute;
         top:20px; right:30px;
+    }
+
+    .product{
+        display: block;
+    }
+
+    div.product_img{
+        text-align: center;
+    }
+
+    .product_price{
+        text-align: right;
+        padding:20px 0;
+    }
+
+    .product_desc{
+        width: 90%;
+        margin:0 auto;
+    }
+
+    .product_info{
+        width: 85%;
+        margin:0 auto;
     }
 
     div.footerinfo{
@@ -149,6 +169,10 @@
     div.QandA>p{
         padding:5px 0;
     }
+
+    div.topbtn{
+    display: none;
+     }
 }
 
 /* 모바일  */
@@ -215,7 +239,39 @@
         position: absolute;
         top:20px; right:30px;
     }
+
+    div.ourstory{
+        display: block;
+        margin:80px 10px;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.ourstory_img{
+        width: 70%;
+        text-align: center;
+        margin:0 auto;
+        height: 150px;
+    }
+
+    div.ourstory_img>img{
+        height: 100%;
+    }
     
+    div.ourstory_write{
+        width: 100%;
+    }
+    
+    p.ourstory_title{
+        font-size: 18px;
+    }
+
+    p.desc{
+        font-size: 18px;
+        line-height: 2;
+    }
+
     div.footerinfo{
         width: 100%;
         display: block;
