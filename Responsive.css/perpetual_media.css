@@ -2,12 +2,6 @@
 @media screen and (min-width: 1400px){
 }
 
-/* 데스크탑 1399 - 1300 */
-@media screen and (max-width: 1399px) and
-(min-width:1300px){
-
-}
-
 /* 태블릿 1023 - 768  */
 /* 1024-924 */
 @media screen and (max-width: 1024px) and
@@ -191,6 +185,7 @@
         font-size: 14px;
     }
 
+    footer,
     .environmentfooter{
         bottom:-110%;
     }
@@ -280,9 +275,24 @@
     div.perpetual_title_env{
         margin:30px 0;
     }
+    
+    ul.sort{
+        justify-content: center;
+        left:10%;
+    }
+
+    div.perpetual_title{
+        width: 100%;
+        left:0; top:27%;
+    }
 
     div.perpetual_title>h2, div.perpetual_title_env>h2{
         font-size: 30px;
+    }
+    div.perpetual_title>p {
+        top:40%;
+        text-align: center;
+        position: static;
     }
 
     .perpetual_box01{
@@ -290,8 +300,9 @@
         left:0; top:auto;
         padding:20px;
         margin-bottom:0;
+        position: static;
     }
-    
+
     .perpetual_box01>h2{
         line-height: 2;
     }
@@ -303,10 +314,15 @@
 
     .box02_pic>div.box02_desc{
         left:0;
+        bottom:-78%;
     }
 
     .box02_desc>p{
         font-size: 14px;
+    }
+
+    footer{
+        bottom:-125%;
     }
 
     .environmentfooter{

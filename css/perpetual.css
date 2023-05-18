@@ -30,7 +30,6 @@ ul.sort_env{
     padding:20px 0;
 }
 
-
 ul.sort>li,
 ul.sort_env>li{
     padding:5px 20px;
@@ -159,6 +158,7 @@ div.universe{
     top:80px; left: 0;
 }
 
+footer,
 .environmentfooter{
     width: 100vw;
     position:absolute;
