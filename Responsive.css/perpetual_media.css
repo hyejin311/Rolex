@@ -184,8 +184,6 @@
     .box02_desc>p{
         font-size: 14px;
     }
-
-    footer,
     .environmentfooter{
         bottom:-110%;
     }
@@ -296,11 +294,7 @@
     }
 
     .perpetual_box01{
-        width: auto;
-        left:0; top:auto;
-        padding:20px;
-        margin-bottom:0;
-        position: static;
+        display: none;
     }
 
     .perpetual_box01>h2{
@@ -314,15 +308,11 @@
 
     .box02_pic>div.box02_desc{
         left:0;
-        bottom:-78%;
+        bottom:11%;
     }
 
     .box02_desc>p{
         font-size: 14px;
-    }
-
-    footer{
-        bottom:-125%;
     }
 
     .environmentfooter{
