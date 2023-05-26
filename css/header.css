@@ -15,7 +15,7 @@ header>div{
     text-align: center;
 }
 
-header>div>h1{
+#logo{
     height: 100%;}
 
 header img{
@@ -73,3 +73,6 @@ nav>ul>li>ul>li>a{
 .closebtn{
     display: none;
 }
+
+.closebtn:after{
+    display: inline-block; content: "\00d7"; font-size:25px;}

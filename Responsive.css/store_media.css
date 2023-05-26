@@ -16,7 +16,7 @@
 
     header>div>div.menu{
         position: absolute;
-        left:10px;
+        left:10px; top:0;
         display: block;
         z-index:100;
     }
@@ -88,7 +88,7 @@
 
     header>div>div.menu{
         position: absolute;
-        left:10px;
+        left:10px; top:0;
         display: block;
         z-index:100;
     }
@@ -203,7 +203,7 @@
 
     header>div>div.menu{
         position: absolute;
-        left:10px;
+        left:10px; top:0;
         display: block;
         z-index:100;
     }
