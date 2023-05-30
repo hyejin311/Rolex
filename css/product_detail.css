@@ -67,28 +67,48 @@ div.product_title>h2{
     margin:15px;
   }
 
-  .info_desc>div>p:first-child{
+  .info_desc>div>dl>dt{
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
     line-height: 2;
     font-size: 14px;
   }
 
-  .info_desc>div>p:last-child{
+  .info_desc>div>dl>dd{
     font-size: 12px;
+    line-height: 2;
   }
-
 
 .on>span{
     font-weight: bold;
     color: #006633; 
   }
 
-div.topbtn{
-    position: fixed;
-    width: 40px; height: 35px;
-    right:50px; bottom:50px;
-    padding:10px;
-    border:1px solid lightgray;
-    border-radius: 50%;
+ div.topbtn{
+  position: fixed;
+  right:50px; bottom:50px;
+  width: 30px; height: 30px;
+  padding:10px;
+  border-radius: 30%;
+  background-color: #0066339f;
  }
+
+ div.arrow_top{
+  position: fixed;
+  right:66px; bottom:70px;
+  width: 15px; height: 15px;
+  transform: rotate(315deg);
+  border:3px solid #000;
+  border-left: none;
+  border-bottom:none;
+ }
+
+div.arrow_stick{
+  position: fixed;
+  right: 44px;
+  height: 30px; width: 30px;
+  border:3px solid #000;
+  border-top:none;
+  border-bottom:none;
+  border-right:none;
+}

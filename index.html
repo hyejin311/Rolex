@@ -16,6 +16,7 @@
 <!-- header -->
 <header>
     <div>
+<!-- logo가 먼저 와야 하는 이유에 대해 알고있기 -->
     <!-- logo -->
     <div id="logo">
         <a href="../index.html">
@@ -159,7 +160,8 @@
     </section>
 
     <div class="topbtn">
-        <img class="top" src="./img/topbtn.png" alt="topbtn">
+        <div class="arrow_top"></div>
+        <div class="arrow_stick"></div>
     </div>
 </main>
 
@@ -236,8 +238,16 @@
             $('nav').css('display','none');
         })
 
-        $('.top').on('click',function(){
+        $('.topbtn').on('click',function(){
             $('html').scrollTop(0);
+        });
+
+        $('.topbtn').on('mouseenter',function(){
+            $(this).stop().css('backgroundColor','#00ba5d9f');
+        });
+
+        $('.topbtn').on('mouseleave',function(){
+            $(this).stop().css('backgroundColor','#0066339f');
         });
 </script>
 </body>
